@@ -1,0 +1,124 @@
+body { /* comment css*/
+	background-color: #E1B52A;
+}
+p {
+	background-color: #88FEFF;
+	color: #E89C0C;
+/* different ways of styling font sizes: px, em, %. Also percentages are relevant to parent font size.*/
+	font-size: 90%;
+}
+h1 {
+	color: #00AC88;
+	font-size: 2.5em;
+	font-family: Ubuntu;
+}
+h2 {/* last # in sequence is opacity. COLOR refers to text only*/
+	color: rgba(255, 0, 0, .5);
+	font-family: Ubuntu;
+	font-size: 40px;
+/*style, weight, size, family: order for fontstyling within single font property line i.e. font: italic bold 100px arial*/
+}
+
+a {
+	color: gold;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: Arial;
+}
+/* position selectors are more specific to certai items, in this case italicized*/
+p em{
+	color: blue;
+}
+/* change specific elements like lists */
+ul li {
+	color: pink;
+	font-weight: bold;
+}
+ol li strong {
+	color: pink;
+	font-size: 30px;
+}
+#footer {
+	color: red;
+}
+.puppy {
+	color: gray;
+}
+.kittyone .kittytwo .kittythree{
+	color: magenta;
+}
+.header {
+	background-color: pink;
+}
+.main-content {
+	background-color: teal;
+}
+.sidebar-content {
+	background-color: orange;
+}
+.footer {
+	background-color: pink;
+}
+
+.highlight {
+	color: purple;
+}
+
+a:link {
+	background-color: red;
+	color: teal;
+	text-decoration: none;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	background-color: magenta;
+	color: white;
+	text-decoration: underline;
+}
+a.special-link {
+	color: blue;
+}
+.header {
+	background: pink;
+	padding: 50px 20px 20px 10px;
+	margin: 10px;
+	border: 15px solid gray;
+	text-align: center;
+	width: 800px;
+	float: right;
+}
+.main-content {
+	float: right;
+	border: 15px solid blue;
+	padding: 20px;
+	text-align: center;
+	width: 800px;
+}
+.sidebar-content {
+	border: 15px solid pink;
+	padding: 20px;
+	text-align: center;
+	width: 300px;
+}
+.footer {
+	border: 15px solid gray;
+	padding: 20px;
+	text-align: center;
+	clear: both;
+}
+.navbar {
+	position: fixed;
+	top: 10px;
+
+}
+
+.boob {
+	width: 30px;
+}
+
+
+
+
